@@ -1,9 +1,13 @@
-#include<stdio.h>;
-int main();
+#include <stdio.h>
+int main()
 {
-int a,b,s;
-scanf("%d%d",&a,&b);
-s=a+b;
-printf("%d",s);
-return 0
+ int alvqntoffood,messcnt,dividedqnt,remfood;
+    scanf("%d",&alvqntoffood);
+    scanf("%d",&messcnt);
+    dividedqnt=alvqntoffood/messcnt;
+    remfood=alvqntoffood%messcnt;
+    printf("%d",dividedqnt);
+    printf(" ");
+    printf("%d",remfood);
+	return 0;
 }
